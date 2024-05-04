@@ -12,7 +12,7 @@ You type "amazon.com" in your browser. The DNS looks up "amazon.com" and finds i
 
 This diagram is an overview of how recursive and authoritative DNS services work together to route an end user to your website or application.
 
-<figure>
+<figure style="text-align: center;">
   <img src="../networking/images/how-route-53-routes-traffic.png" alt="Diagram showing how Amazon Route 53 routes traffic">
   <figcaption>Amazon Route 53 Traffic Routing</figcaption>
 </figure>
@@ -21,7 +21,7 @@ This diagram is an overview of how recursive and authoritative DNS services work
 
 Hackers have sometimes taken advantage of lax oversight and used DNS maliciously. One example of that is DNS cache poisoning, in which false data is fed into the DNS cache that directs people to malicious websites hosting data-swiping malware.
 
-<figure>
+<figure style="text-align: center;">
   <img src="../networking/images/dns-cache-poisoning.png" alt="How DNS cache poisoning happens">
   <figcaption>How DNS cache poisoning happens</figcaption>
 </figure>
