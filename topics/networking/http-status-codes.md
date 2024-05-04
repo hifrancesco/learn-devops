@@ -159,8 +159,8 @@
 - Example: A client tries to upload a file that exceeds the server's limit, resulting in 413 Payload Too Large.
 
 **414 Request-URI Too Long**
-Purpose: The URI requested by the client is longer than the server is willing to interpret.
-Example: A client sends a GET request with an excessively long URL, leading to 414 Request-URI Too Long.
+- Purpose: The URI requested by the client is longer than the server is willing to interpret.
+- Example: A client sends a GET request with an excessively long URL, leading to 414 Request-URI Too Long.
 
 **415 Unsupported Media Type**
 - Purpose: The media format of the requested data is not supported by the server, so the server is rejecting the request.
